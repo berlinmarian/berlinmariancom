@@ -1,0 +1,14 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 15%;
+    height: auto;
+}
