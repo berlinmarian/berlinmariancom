@@ -161,3 +161,10 @@ hr {
 .section-content.open {
     max-height: 2000px;
 }
+
+/* Mobile fixes for background */
+@media (max-width: 768px) {
+    #bg-layer1, #bg-layer2 {
+        background-attachment: scroll;
+    }
+}
