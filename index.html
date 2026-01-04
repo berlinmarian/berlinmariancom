@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="header">
-        <img src="berlinmarian.png" alt="" class="logo">
-        <h1>Hello, I am Berlin Marian</h1>
-        <p>I do create simple and experimental projects.</p>
-        <p>Go to:
-            <a href="#about-me">About Me</a>,
-            <a href="#tech-stack">Tech Stack</a>,
-            <a href="#math-stack">Math Stack</a>,
-            <a href="#projects">Projects</a>,
-            <a href="#languages">Languages</a>, 
-            <a href="#contact-me">Contact Me</a></p>
-        <hr>
-    </div>
-    <div id="content">
+    <div id="bg-layer"></div>
+    <div class="aero-glass">
+        <div id="header">
+            <img src="berlinmarian.png" alt="" class="logo">
+            <h1>Hello, I am Berlin Marian</h1>
+            <p>I do create simple and experimental projects.</p>
+            <nav class="navigation">
+                <a href="#about-me">About Me</a>
+                <a href="#tech-stack">Tech Stack</a>
+                <a href="#math-stack">Math Stack</a>
+                <a href="#projects">Projects</a>
+                <a href="#languages">Languages</a>
+                <a href="#contact-me">Contact Me</a>
+                <button id="bg-switch">Switch Background</button>
+            </nav>
+            <hr>
+        </div>
+        <div id="content">
         <div id="about-me">
             <h2>About Me</h2>
             <p>Actually I am an applied mathematician, who is studying Mathematical Engineering at Yildiz Technical University. In 2024, I had the chance of being a exchange student in University of Lodz, Poland.</p>
@@ -89,5 +93,7 @@
         </div>
         
     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
